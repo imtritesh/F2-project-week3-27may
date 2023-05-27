@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+body{
+    background-color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* section-1 */
+
+.section-1{
+    width: 80%;
+    margin: 100px auto;
+}
+.section-1 .search-btn{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 50px;
+}
+.section-1 .search-div{
+    width: 66%;
+}
+.section-1 .search-div input{
+    width: 100%;
+    padding: 6px 4px;
+    background-color: #000;
+    border: 1px solid #ddd;
+    color: #fff;
+}
+::placeholder{
+    color: #fff;
+}
+.section-1 .btns{
+    display: flex;
+}
+.section-1 .btns .btn{
+    margin: 0 10px;
+    border-radius: 0px;
+    background-color: #000;
+    border: 1px solid #ddd;
+}
+
+
+/* table */
+.table>:not(caption)>*>*{
+    padding: 15px;
+    padding-top: 17px;
+    text-align: left;
+}
+table th{
+    color: #fff;
+}
+table tr td{
+    color: #fff;
+}
+table td img{
+    width: 30px;
+    height: 30px;
+    margin-right:10px;
+}
+.percentColor-1{
+    color: green;
+}
+.percentColor-2{
+    color: red;
+}
+table tr td{
+   text-align: left;
+}
